@@ -1,0 +1,17 @@
+{
+  "name": "anikoto-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Isolated scraper for Anikoto Mana Shop decorations and titles",
+  "type": "module",
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "scripts": {
+    "start": "node scrape.js",
+    "check": "node --check scrape.js"
+  },
+  "dependencies": {
+    "cheerio": "1.1.2"
+  }
+}
